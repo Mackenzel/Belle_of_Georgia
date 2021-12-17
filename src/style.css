@@ -1,0 +1,39 @@
+:root {
+  --text-white: #f2f2f2;
+  --primary-color: #ea8a8a;
+  --secondary-color: #ebd5d5;
+  --accent-color: #685454;
+}
+body {
+  font-family: "Nunito", "sans-serif";
+}
+h1 {
+  font-family: "Delius Swash Caps", cursive;
+  margin: 0px 0px 40px 0px;
+  padding: 190px 0px 0px 0px;
+  font-size: 90px;
+}
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url("/media/food.jpg");
+
+  background-position: right 50% bottom 70%;
+  text-align: center;
+  color: var(--text-white);
+}
+
+.peach {
+  font-size: 60px;
+}
+.homepage-button {
+  margin: 20px;
+  font-size: 20px;
+  padding: 8px;
+  color: var(--text-white);
+  border: 2px solid var(--text-white);
+  border-radius: 20px;
+}
+.homepage-button:hover {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+}
