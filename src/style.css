@@ -13,6 +13,13 @@ h1 {
   padding: 190px 0px 0px 0px;
   font-size: 90px;
 }
+h3 {
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 42px;
+  margin: 10px;
+  text-align: center;
+}
 .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
     url("/media/food.jpg");
@@ -36,4 +43,14 @@ h1 {
 .homepage-button:hover {
   color: var(--primary-color);
   background-color: var(--secondary-color);
+}
+.img-bkgd {
+  padding: 5px;
+  background-color: var(--accent-color);
+  border-radius: 15px;
+}
+.recipe-name {
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: bold;
 }
