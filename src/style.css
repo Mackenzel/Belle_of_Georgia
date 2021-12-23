@@ -21,13 +21,38 @@ p {
   font-size: 18px;
   line-height: 30px;
 }
-
+footer {
+  margin: 60px 0;
+}
 .page-break h3 {
   color: var(--primary-color);
   font-weight: bold;
   font-size: 42px;
   margin: 10px;
   text-align: center;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+footer .email-link:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--accent-color);
+  background-color: var(--primary-color);
+  padding: 2px 10px;
+  border-radius: 50%;
+  font-size: 25px;
+  line-height: 1.4;
+  transition: all 150ms ease-in-out;
+}
+footer .social-links a:hover {
+  background-color: var(--text-white);
+  color: var(--primary-color);
 }
 .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
@@ -74,11 +99,15 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
-.about-media-link {
-  font-size: 16px;
+.about-media-link a {
+  margin: 10px;
+  color: var(--primary-color);
+  background-color: var(--text-white);
+  padding: 5px 10px;
+  border-radius: 50%;
 }
-.about-media-link i {
-  margin: 20px 25px 0px 15px;
+.about-media-link a:hover {
+  color: var(--secondary-color);
 }
 .list-bg {
   background-color: var(--secondary-color);
@@ -86,4 +115,11 @@ p {
 }
 .step {
   color: var(--primary-color);
+}
+.contact-content a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.contact-content h4 {
+  font-size: 28px;
 }
